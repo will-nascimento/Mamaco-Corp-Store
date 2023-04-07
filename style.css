@@ -1,50 +1,107 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
 body{
 background-color: rgb(161, 205, 169);   
 text-align: center;
 justify-content: center;
+
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: sans-serif;  
 }
 
-table, th, td{
-    border: 2px solid ;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+nav{
+    background-color: rgb(29, 151, 35);  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 40px;  
+    display: flex;  
+    text-align: center;
+    align-items: center;  
+    box-shadow: 0 0 25px 0 black;      
+    justify-content: center;
 }
 
-#titulo{
+nav * {  
+display: inline;  
+}  
+nav li {  
+margin: 20px;  
+}  
+nav li a {  
+color: rgb(8, 8, 168);  
+text-decoration: none;  
+}  
 
-    font-size: 30px;
-    border: 2px solid darkblue;
-    border-radius: 10px;
-    padding: 5px 10px;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.paginas{
-    text-decoration: none;
-    font-size: 30px;
-    border-radius: 10px;
-    padding: 5px 5px;
-    margin: 20px 0;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;          
-}
-
-.paginas:hover {
+nav li:hover {
+    padding: 2px;
+    border-radius: 5px;
     border: 2px solid rgb(111, 9, 9) ;
 
 }
 
+table, th, td{
+border: 2px solid ;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+border-radius: 5px;
+}
+
+#titulo{
+font-size: 30px;
+border: 2px solid rgb(3, 3, 85);
+border-radius: 10px;
+padding: 5px 10px;
+width: fit-content;
+margin-left: auto;
+margin-right: auto;
+}
+
+.paginas{
+text-decoration: none;
+font-size: 30px;
+border-radius: 10px;
+padding: 5px 5px;
+margin: 20px 0;
+width: fit-content;
+margin-left: auto;
+margin-right: auto;
+font-size: 20px;          
+}
+
 img{
-    width: 200px;
+width: 200px;
+}
+
+fieldset{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+fieldset input, textarea, select {
+ width: 250px;
+ border-radius: 3px;
+ text-align: center;
+}
+
+fieldset input:hover, textarea:hover, select:hover{
+    background-color: rgb(116, 221, 110);
 }
 
 footer{
-    margin: 20px;
-    font-size:20px; 
-    font-weight:bold;
+margin: 20px;
+font-size:20px; 
+font-weight:bold;
 }
