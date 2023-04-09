@@ -4,11 +4,11 @@ margin: 0px;
 }
 
 body{
-background-color: rgb(161, 205, 169);   
+background: linear-gradient(to bottom,rgb(74, 155, 74),rgb(161, 205, 169));
+min-height: 100vh;   
 text-align: center;
 justify-content: center;
 
-height: 125vh;  
 margin-top: 80px;  
 padding: 30px;  
 background-size: cover;  
@@ -98,6 +98,11 @@ fieldset input, textarea, select {
 
 fieldset input:hover, textarea:hover, select:hover{
     background-color: rgb(116, 221, 110);
+}
+
+.button{
+    border-radius: 5px;
+    width: 20%;
 }
 
 footer{
